@@ -11,6 +11,8 @@ It accepts PAE + structure file (pdb/mmCIF), cutoff parameters,
 and returns all generated outputs.
 
 https://github.com/DunbrackLab/IPSAE
+
+modal run ./scripts/modal_ipsae.py --input-dir ./out --models boltz --pae-cutoff 10 --dist-cutoff 10 --limit 20 --skip-existing
 """
 
 from __future__ import annotations
